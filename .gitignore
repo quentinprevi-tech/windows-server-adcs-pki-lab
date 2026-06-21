@@ -1,0 +1,25 @@
+# Private keys and certificate bundles
+*.key
+*.pfx
+*.p12
+*.pem
+
+# Certificate requests and issued certificates
+*.csr
+*.cer
+*.crt
+*.der
+
+# CA backups and sensitive exports
+*.bak
+*.backup
+*.zip
+*.7z
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# OS files
+.DS_Store
+Thumbs.db
