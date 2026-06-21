@@ -140,3 +140,18 @@ This lab validates an internal Microsoft PKI scenario from end to end.
 A Windows Server AD CS Enterprise Root CA was deployed, a Web Server certificate template was created, a certificate was issued for a Linux/Nginx server, HTTPS was configured and trusted access was validated from a Windows domain client.
 
 The Certificate Authority was also monitored in Zabbix with a trigger on the CertSvc service.
+
+## Documentation
+
+Detailed documentation is available in the `docs/` directory:
+
+| Document | Description |
+|---|---|
+| [Architecture](docs/architecture.md) | Lab architecture, network segmentation and trust flow |
+| [AD CS Installation](docs/adcs-installation.md) | AD CS role installation and Enterprise Root CA configuration |
+| [Certificate Template](docs/certificate-template.md) | Web Server certificate template configuration |
+| [Linux CSR and Certificate Issuance](docs/linux-csr-and-certificate.md) | CSR generation on Linux and certificate issuance from AD CS |
+| [Nginx HTTPS Validation](docs/nginx-https-validation.md) | HTTPS configuration and validation from Windows client |
+| [Zabbix Monitoring](docs/zabbix-monitoring.md) | Monitoring SRV-CA01 and the CertSvc service |
+| [Security Notes](docs/security-notes.md) | Private key protection, template security and CA exposure |
+| [Production Improvements](docs/production-improvements.md) | Improvements recommended for a production PKI design |
